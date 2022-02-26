@@ -1,0 +1,18 @@
+{
+  //认证，授权相关
+  "Certified": {
+    //Ids4 配置（优先级从上到下）
+    "IdentityServer4": {
+      "Enabled": false, // 为true时使用ids4
+      "AuthorizationUrl": "https://ids.dotnetrun.com", // 认证中心域名
+      "ApiName": "FastCore.api" // 资源服务器
+    },
+    //JWT 配置信息
+    "JWT": {
+      "Enabled": true, //如果ids4为false，并且jwt为true时使用jwt，都为false使用自定义认证规则
+      "Secret": "sdfsdfsrty45634kkhllghtdgdfss345t678fs", //秘钥 16位+
+      "Issuer": "FastCore", //发布者
+      "Audience": "wr" //订阅
+    }
+  }
+}

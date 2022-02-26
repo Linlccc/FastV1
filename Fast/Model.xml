@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Model</name>
+    </assembly>
+    <members>
+        <member name="T:Model.BaseModels.BaseFeature">
+            <summary>
+            功能 父类
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.Name">
+            <summary>
+            功能名称（显示）
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.PageName">
+            <summary>
+            页面Name
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.Description">
+            <summary>
+            功能描述
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.FatherId">
+            <summary>
+            父级id 可空
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.IsElement">
+            <summary>
+            是否是元素
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.Route">
+            <summary>
+            访问路由地址
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.Redirect">
+            <summary>
+            重定向地址
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.ViewPath">
+            <summary>
+            访问路由地址
+            示例 views/Home.vue
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.Hidden">
+            <summary>
+            隐藏（不能搜索，不显示在侧边栏）
+            页面使用
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.ShowVisited">
+            <summary>
+            显示在ViewTags
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.AffixView">
+            <summary>
+            是否固定视图
+            要显示固定视图必须启动ShowVisited
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.CacheView">
+            <summary>
+            缓存视图
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseFeature.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:Model.BaseModels.BaseInterfaceInfo">
+            <summary>
+            接口信息父类
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseInterfaceInfo.LinkUrl">
+            <summary>
+            接口链接
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseInterfaceInfo.Description">
+            <summary>
+            接口功能描述
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseInterfaceInfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseInterfaceInfo.Enabled">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="T:Model.BaseModels.BaseRole">
+            <summary>
+            角色父类
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseRole.Name">
+            <summary>
+            角色名
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseRole.Description">
+             <summary>
+            描述
+             </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseRole.Enabled">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseRole.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Model.BaseModels.BaseRoleFeature">
+            <summary>
+            角色和功能的关系
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseRoleFeature.RoleId">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseRoleFeature.FeaturesId">
+            <summary>
+            功能ID
+            </summary>
+        </member>
+        <member name="T:Model.BaseModels.BaseRoleInterface">
+            <summary>
+            角色和接口的关系
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseRoleInterface.RoleId">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseRoleInterface.InterfaceId">
+            <summary>
+            接口ID
+            </summary>
+        </member>
+        <member name="T:Model.BaseModels.BaseTasks">
+            <summary>
+            任务类
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.Name">
+            <summary>
+            任务名称
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.JobGroup">
+            <summary>
+            任务分组
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.AssemblyName">
+            <summary>
+            任务所在DLL对应的程序集名称
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.NameSpace">
+            <summary>
+            命名空间
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.ClassName">
+            <summary>
+            任务所在类
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.JobParams">
+            <summary>
+            执行传参
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.IsStart">
+            <summary>
+            是否启动
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.BeginTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.RunCounts">
+            <summary>
+            执行次数
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.Remark">
+            <summary>
+            任务描述
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.Log">
+            <summary>
+            任务执行日志
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.TriggerType">
+            <summary>
+            触发器类型（0、simple 1、cron）
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.Cron">
+            <summary>
+            任务运行时间表达式
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseTasks.IntervalSecond">
+            <summary>
+            执行间隔时间, 秒为单位
+            </summary>
+        </member>
+        <member name="T:Model.BaseModels.TriggerType">
+            <summary>
+            任务时间触发器类型
+            </summary>
+        </member>
+        <member name="T:Model.BaseModels.BaseUser">
+            <summary>
+            用户父类
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseUser.NickName">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseUser.LoginName">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseUser.LoginPWD">
+            <summary>
+            登录密码
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseUser.Avatar">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseUser.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseUser.UpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseUser.LastLoginTime">
+             <summary>
+            最后登录时间
+             </summary>
+        </member>
+        <member name="T:Model.BaseModels.BaseUserRole">
+            <summary>
+            用户和角色 连接 父类
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseUserRole.UserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.BaseUserRole.RoleId">
+            <summary>
+            角色id
+            </summary>
+        </member>
+        <member name="T:Model.BaseModels.RootEntity">
+            <summary>
+            根实体
+            </summary>
+        </member>
+        <member name="P:Model.BaseModels.RootEntity.Id">
+            <summary>
+            ID【使用的雪花漂移ID】
+            </summary>
+        </member>
+        <member name="T:Model.Models.Feature">
+            <summary>
+            功能
+            </summary>
+        </member>
+        <member name="P:Model.Models.Feature.ChildFeaturesList">
+            <summary>
+            下面的子功能
+            </summary>
+        </member>
+        <member name="T:Model.Models.Role">
+            <summary>
+            角色类
+            </summary>
+        </member>
+        <member name="P:Model.Models.Role.FeaturesList">
+            <summary>
+            角色的功能表
+            </summary>
+        </member>
+        <member name="T:Model.Models.RoleFeature">
+            <summary>
+            角色和功能关系
+            </summary>
+        </member>
+        <member name="P:Model.Models.RoleFeature.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:Model.Models.RoleFeature.Features">
+            <summary>
+            功能
+            </summary>
+        </member>
+        <member name="P:Model.Models.RoleInterface.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:Model.Models.RoleInterface.InterfaceInfo">
+            <summary>
+            接口
+            </summary>
+        </member>
+        <member name="T:Model.Models.TimedTask">
+            <summary>
+            定时任务
+            </summary>
+        </member>
+        <member name="T:Model.Models.User">
+            <summary>
+            用户类
+            </summary>
+        </member>
+        <member name="P:Model.Models.User.PlaintextPwd">
+            <summary>
+            明文密码
+            </summary>
+        </member>
+        <member name="P:Model.Models.User.ErrorCount">
+            <summary>
+            错误次数
+            </summary>
+        </member>
+        <member name="P:Model.Models.User.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Model.Models.User.Enabled">
+            <summary>
+            逻辑删除
+            </summary>
+        </member>
+        <member name="P:Model.Models.User.AdminSignalrConnectionId">
+            <summary>
+            后台的 signalr 连接
+            </summary>
+        </member>
+        <member name="P:Model.Models.User.Roles">
+            <summary>
+            角色信息
+            </summary>
+        </member>
+        <member name="T:Model.Models.UserRole">
+            <summary>
+            用户和角色关联类
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserRole.User">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:Model.Models.UserRole.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.RoleView.Id">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.RoleView.Name">
+            <summary>
+            角色名
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.RoleView.Description">
+             <summary>
+            描述
+             </summary>
+        </member>
+        <member name="P:Model.ViewModels.AppInfo.Is64BitProcess">
+            <summary>
+            是否是64位进程
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.AppInfo.EnvironmentName">
+            <summary>
+            环境名称
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.AppInfo.AppRootPath">
+            <summary>
+            程序根目录
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.AppInfo.WebRootPath">
+            <summary>
+            WebRootPath
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.AppInfo.FrameworkDescription">
+            <summary>
+            .NET Core 框架描述
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.AppInfo.WorkingSet">
+            <summary>
+            内存占用
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.AppInfo.WorkingTime">
+            <summary>
+            启动时间
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.AppInfo.UseCpuTime">
+            <summary>
+            占用cpu时间
+            </summary>
+        </member>
+        <member name="T:Model.ViewModels.SystemInfo">
+            <summary>
+            系统信息
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.OSVersion">
+            <summary>
+            操作系统及版本
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.Is64BitOperatingSystem">
+            <summary>
+            是否是64位操作系统
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.MachineName">
+            <summary>
+            机器名称
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.UserDomainName">
+            <summary>
+            与当前用户关联的网络域名
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.LogicalDrives">
+            <summary>
+            逻辑分区
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.SystemDirectory">
+            <summary>
+            系统目录
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.RunTimes">
+            <summary>
+            系统已运行时间s
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.UserInteractive">
+            <summary>
+            是否在交互模式中运行
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.UserName">
+            <summary>
+            当前关联的用户名
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.Version">
+            <summary>
+            公共语言运行时的版本
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.SystemInfo.EnvironmentVariables">
+            <summary>
+            环境变量
+            </summary>
+        </member>
+        <member name="T:Model.ViewModels.TokenInfoView">
+            <summary>
+            Token 信息前台显示类
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.TokenInfoView.Token">
+            <summary>
+            token 字符串
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.TokenInfoView.Expires_in">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.TokenInfoView.Token_type">
+            <summary>
+            token 类型
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.UserView.Id">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.UserView.LoginName">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.UserView.NickName">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.UserView.Avatar">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.UserView.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Model.ViewModels.UserView.RoleNames">
+            <summary>
+            角色名集合
+            </summary>
+        </member>
+        <member name="T:System.Msg`1">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:System.Msg`1.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:System.Msg`1.Success">
+            <summary>
+            操作是否成功
+            </summary>
+        </member>
+        <member name="P:System.Msg`1.Message">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:System.Msg`1.Data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="T:System.PageMsg`1">
+            <summary>
+            通用按页查找信息返回类
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:System.PageMsg`1.PageIndex">
+            <summary>
+            当前页数【查询前赋值】
+            </summary>
+        </member>
+        <member name="P:System.PageMsg`1.PageSize">
+            <summary>
+            每页大小【查询前赋值】
+            </summary>
+        </member>
+        <member name="P:System.PageMsg`1.TotalPageCount">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:System.PageMsg`1.TotalDataCount">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:System.PageMsg`1.Data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+    </members>
+</doc>

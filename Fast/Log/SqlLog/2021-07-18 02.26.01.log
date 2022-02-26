@@ -1,0 +1,162 @@
+--------------------------------
+【执行时间】：2021/7/18 2:26:01
+【工作时间ms】：N/A
+【Sql参数】：
+【Sql语句】：SELECT [Name],[JobGroup],[AssemblyName],[NameSpace],[ClassName],[JobParams],[IsStart],[BeginTime],[EndTime],[RunCounts],[Remark],[Log],[TriggerType],[Cron],[IntervalSecond],[Id] FROM [TimedTask]  WHERE ( [IsStart]=1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:26:25
+【工作时间ms】：N/A
+【Sql参数】：@LoginName0:string|@constant1:B45CFFE084DD3D20D928BEE85E7B0F21
+【Sql语句】：SELECT [PlaintextPwd],[ErrorCount],[Remark],[Enabled],[AdminSignalrConnectionId],[NickName],[LoginName],[LoginPWD],[Avatar],[CreateTime],[UpdateTime],[LastLoginTime],[Id] FROM [User]  WHERE (( ( [Enabled]=1 ) AND( [LoginName] = @LoginName0 )) AND ( [LoginPWD] =@constant1))
+
+--------------------------------
+【执行时间】：2021/7/18 2:26:25
+【工作时间ms】：N/A
+【Sql参数】：@LastLoginTime0:2021/7/18 2:26:25|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [LastLoginTime] = @LastLoginTime0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:26:26
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:oOtThhCZV9eWHM4i8HetVQ|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:26:26
+【工作时间ms】：N/A
+【Sql参数】：@Id0:167485148799045
+【Sql语句】：SELECT [PlaintextPwd],[ErrorCount],[Remark],[Enabled],[AdminSignalrConnectionId],[NickName],[LoginName],[LoginPWD],[Avatar],[CreateTime],[UpdateTime],[LastLoginTime],[Id] FROM [User]  WHERE ( [Id] = @Id0 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:26:26
+【工作时间ms】：N/A
+【Sql参数】：@ConditionalUserId0:167485148799045
+【Sql语句】：SELECT [UserId],[RoleId],[Id] FROM [UserRole]  WHERE   UserId IN ('167485148799045')   
+
+--------------------------------
+【执行时间】：2021/7/18 2:26:26
+【工作时间ms】：N/A
+【Sql参数】：@ConditionalId0:167501808996421
+【Sql语句】：SELECT [Name],[Description],[Enabled],[CreateTime],[Id] FROM [Role]  WHERE   Id IN ('167501808996421')   
+
+--------------------------------
+【执行时间】：2021/7/18 2:26:27
+【工作时间ms】：N/A
+【Sql参数】：@UserId0:167485148799045
+【Sql语句】：SELECT  DISTINCT f.* FROM [UserRole] ur Left JOIN [Role] r ON ( [ur].[RoleId] = [r].[Id] )  Left JOIN [RoleFeature] rf ON ( [ur].[RoleId] = [rf].[RoleId] )  Left JOIN [Feature] f ON ( [rf].[FeaturesId] = [f].[Id] )   WHERE ( [ur].[UserId] = @UserId0 )  AND ( [r].[Enabled]=1 )  AND (NOT( [f].[Name]='' OR [f].[Name] IS NULL ) AND ( [f].[Enabled]=1 ) )
+
+--------------------------------
+【执行时间】：2021/7/18 2:26:53
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:LJZ8c8J63HoNhwjTH8zwTw|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:27:01
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:27:04
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:27:05
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:Uqu1HIR9dTI-bNm7ij2k5g|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:31:54
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:31:55
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:US2w9Ldx3nOvxMnB6GOKrw|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:36:09
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:36:10
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:8RXDzwm7QoqbYRA_Yk_I2w|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:41:19
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:42:27
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:djr5RBxn-v1GV4MnMP-fKQ|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:42:46
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:42:47
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:hrUa-Mu8P8BTwJwxcfrZNQ|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:43:04
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:43:06
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:jaeQw0Yqkxax_DbptuuSHQ|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:43:18
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:43:19
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:8yHarGqA8tby17rN-hH87A|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:46:12
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:46:13
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:ewiXlsd6W7-aw3G8n3EcZg|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+
+--------------------------------
+【执行时间】：2021/7/18 2:50:12
+【工作时间ms】：N/A
+【Sql参数】：@AdminSignalrConnectionId0:|@Id1:167485148799045
+【Sql语句】：UPDATE [User]  SET             [AdminSignalrConnectionId] = @AdminSignalrConnectionId0    WHERE ( [Id] = @Id1 )
+

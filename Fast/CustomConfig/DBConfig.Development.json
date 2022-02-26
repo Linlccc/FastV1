@@ -1,0 +1,134 @@
+{
+  /*
+    【数据库基础配置】
+    【默认库】请配置 DefaultDB 为你默认库的ConnId值,并设置对应的Enabled为true
+    【多库】可同时开启多库（可是不同数据库），多库情况根据实体类特性 操作 指定库(开启多个数据库一定要在实体类设置特性)[SugarTable("表", "库ID")]
+    【读写分离】SlaveLibraries 里面都是读库，读库的数据库类型和主库相同
+    【数据库类型】
+      MySql = 0,
+      SqlServer = 1,
+      Sqlite = 2,   这个数据库只需要写数据库名就可以了
+      Oracle = 3,
+      PostgreSQL = 4
+  */
+  /*
+  数据库集格式
+  {
+    "ConnId": "链接ID(string)",
+    "DBType": "数据库类型(int)",
+    "Enabled": "是否启动(bool)",
+    "Connection": "连接字符",
+    //读库(读库数据库类型和写库一致)
+    "SlaveLibraries": [
+      {
+        "ConnId": "读库ID(string)",
+        "Connection": "读库连接字符(string)",
+        "HitRate": "读库命中率，值越大命中率越高(int)",
+        "Enabled": "是否启动(bool)"
+      }
+    ]
+  }
+  */
+  //当前示例是使用两个数据库，都有一个读库
+  "DBConfig": {
+    "DefaultDB": "Fast_MSSQL_139.155.36.244_1",
+    "CreateDb": true, //自动创建数据和表
+    "UpdateDb": false, //更新表
+    "SeedData": false, //表里没有数据时添加种子数据
+    "DBS": [
+
+      {
+        "ConnId": "Fast_MSSQL_139.155.36.244_1", //链接ID
+        "DBType": 1, //数据库类型
+        "Enabled": true, //是否启动
+        "Connection": "Server=dotnetrun.com;DataBase=Fast_1;Uid=sa;Pwd=cl200116.", //连接字符
+        "SlaveLibraries": [ //读库
+          {
+            "ConnId": "Fast_MSSQL_139.155.36.244_2", //读库ID
+            //读库连接字符
+            "Connection": "Data Source=.;Initial Catalog=FastDb_a2;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+            "HitRate": 90, //读库命中率，值越大命中率越高
+            "Enabled": false //是否启动
+          }
+        ]
+      },
+      {
+        "ConnId": "MyCore_MSSQL_a1", //链接ID
+        "DBType": 1, //数据库类型
+        "Enabled": false, //是否启动
+        //连接字符
+        "Connection": "Data Source=.;Initial Catalog=FastDb_a1;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+        //"Connection": "Server=dotnetrun.com;DataBase=MyCore_a1;Uid=sa;Pwd=cl200116.",
+        "ProviderName": "System.Data.SqlClient", //提供商，可无
+        "SlaveLibraries": [ //读库
+          {
+            "ConnId": "MyCore_MSSQL_a2", //读库ID
+            //读库连接字符
+            "Connection": "Data Source=.;Initial Catalog=FastDb_a2;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+            "HitRate": 90, //读库命中率，值越大命中率越高
+            "Enabled": false //是否启动
+          }
+        ]
+      },
+      {
+        "ConnId": "MyCore_MSSQL_b1", //链接ID
+        "DBType": 1, //数据库类型
+        "Enabled": false, //是否启动
+        //连接字符
+        "Connection": "Data Source=.;Initial Catalog=FastDb_b1;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+        "ProviderName": "System.Data.SqlClient", //提供商，可无
+        "SlaveLibraries": [ //读库
+          {
+            "ConnId": "MyCore_MSSQL_b2", //读库ID
+            //读库连接字符
+            "Connection": "Data Source=.;Initial Catalog=FastDb_b2;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+            "HitRate": 90, //读库命中率，值越大命中率越高
+            "Enabled": false //是否启动
+          },
+          {
+            "ConnId": "MyCore_MSSQL_b3", //读库ID
+            //读库连接字符
+            "Connection": "Data Source=.;Initial Catalog=FastDb_b3;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+            "HitRate": 90, //读库命中率，值越大命中率越高
+            "Enabled": false //是否启动
+          }
+        ]
+      },
+      {
+        "ConnId": "WMBLOG_MYSQL",
+        "DBType": 0,
+        "Enabled": false,
+        "Connection": "server=.;Database=ddd;Uid=root;Pwd=123456;Port=10060;Allow User Variables=True;",
+        "SlaveLibraries": [
+          {}
+        ]
+      },
+      {
+        "ConnId": "MyCore_MSSQL", //数据库id，自定义
+        "DBType": 1, //数据库类型
+        "Enabled": false, //是否使用
+        "Connection": "Data Source=DESKTOP-5QVT8OF;Initial Catalog=MyCore;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False", //链接字符串
+        "SlaveLibraries": [
+          {}
+        ]
+      },
+      {
+        "ConnId": "WMBLOG_SQLITE",
+        "DBType": 2,
+        "Enabled": false,
+        "Connection": "WMBlog.db", //sqlite只写数据库名就行
+        "SlaveLibraries": [
+          {}
+        ]
+      },
+      {
+        "ConnId": "WMBLOG_ORACLE",
+        "DBType": 3,
+        "Enabled": false,
+        "HitRate": 10,
+        "Connection": "Provider=OraOLEDB.Oracle; Data Source=WMBlogDB; User Id=sss; Password=789;",
+        "OracleConnection_other1": "User ID=sss;Password=789;Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.8.65)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME = orcl)))"
+      }
+    ]
+  }
+}

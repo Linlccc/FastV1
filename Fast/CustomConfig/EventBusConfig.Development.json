@@ -1,0 +1,16 @@
+{
+  //高级消息列队
+  "RabbitMQ": {
+    "Enabled": false,
+    "HostName": "192.168.1.100", //连接
+    "Port": 5672,
+    "UserName": "cl",
+    "Password": "123",
+    "RetryCount": 3 //重连次数
+  },
+  //事件总线,要使用必须开启 RabbitMQ
+  "EventBus": {
+    "Enabled": false,
+    "SubscriptionClientName": "FastCore" //订阅客户端名称[列队名称]
+  }
+}

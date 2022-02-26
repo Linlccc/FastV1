@@ -1,0 +1,15 @@
+{
+  //Aop 配置（aop都是面向services（服务）的）
+  "AopSettings": {
+    //redis 缓存
+    "RedisCachingAOP": false,
+    //本地缓存
+    "MemoryCachingAOP": true,
+    //数据操作Aop
+    "DbOperAOP": true,
+    //事务，出错后数据回滚
+    "TranAOP": true,
+    //记录 sql (记录执行的sql，性能检测输出)
+    "SqlAOP": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  //基础配置
+  "BasicConfig": {
+    "AppConfigAlert": true, //是否显示配置情况
+    "ApiName": "Fast",
+    "RoutePrefix": "" //全局路由前缀
+  },
+  //启动服务时执行一次
+  "StartServiceTimeExecuteOnce": {
+    "QuartzNetJob": { //任务调度
+      "Enabled": true
+    }
+  },
+  //Redis 配置信息
+  "Redis": {
+    "ConnectionString": "127.0.0.1:6379,password=123456", //连接配置
+    "RedisMq": false //消息队列
+  },
+  //雪花ID 配置信息
+  "YitId": {
+    "Method": 1, //使用算法【1-漂移算法，2-传统算法】
+    "WorkerId": 1, //机器码
+    "TopOverCostCount": 3000 //计算能力相关【500-10000】
+  }
+}

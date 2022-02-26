@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fast</name>
+    </assembly>
+    <members>
+        <member name="T:Fast.Controllers.Basics.FeatureController">
+            <summary>
+            功能
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.FeatureController.GetPageList(System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取功能信息
+            </summary>
+            <param name="name"></param>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.FeatureController.GetAllFeaturesTree">
+            <summary>
+            获取全部功能信息树
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.FeatureController.GetPermissions">
+            <summary>
+            获取当前用户的权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.FeatureController.Oper(Model.Models.Feature)">
+            <summary>
+            操作功能
+            </summary>
+            <param name="features"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.FeatureController.EditStatus(System.Int64,System.Boolean)">
+            <summary>
+            修改功能状态
+            </summary>
+            <param name="id"></param>
+            <param name="enable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.FeatureController.Delete(System.Int64)">
+            <summary>
+            删除功能
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.FileController">
+            <summary>
+            文件控制器
+            </summary>
+        </member>
+        <member name="F:Fast.Controllers.Basics.FileController.TemporaryUpFolderPath">
+            <summary>
+            上传文件的临时文件夹
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.FileController.UpImg(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            上传图片
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.FileController.SaveFiles(Microsoft.AspNetCore.Http.IFormFile[])">
+            <summary>
+            保存文件集合
+            </summary>
+            <param name="files">要保存的文件</param>
+            <returns>文件的名称集合</returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.IdentityController">
+            <summary>
+            身份
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.IdentityController.Login(OperateModels.LoginInfo)">
+            <summary>
+            登录
+            </summary>
+            <param name="loginInfo">用户信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.IdentityController.RefreshLogin(System.String)">
+            <summary>
+            刷新登录状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.InterfaceInfoController">
+            <summary>
+            接口
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.InterfaceInfoController.GetPageList(System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取接口信息
+            </summary>
+            <param name="description">接口描述</param>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.InterfaceInfoController.GetAllInterfaceInfo">
+            <summary>
+            获取全部接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.InterfaceInfoController.Oper(Model.Models.InterfaceInfo)">
+            <summary>
+            操作接口
+            </summary>
+            <param name="interfaceInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.InterfaceInfoController.EditStatus(System.Int64,System.Boolean)">
+            <summary>
+            修改接口状态
+            </summary>
+            <param name="id"></param>
+            <param name="enable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.InterfaceInfoController.Delete(System.Int64)">
+            <summary>
+            删除接口
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.LogController">
+            <summary>
+            日志
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.LogController.GetLogs(System.String,System.DateTime,System.DateTime,System.Int32)">
+            <summary>
+            获取日志
+            </summary>
+            <param name="logType">日志类型</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="count">日志条数</param>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.RoleController">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.RoleController.GetPageList(System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取角色信息
+            </summary>
+            <param name="name"></param>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.RoleController.GetAllRole">
+            <summary>
+            获取所有角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.RoleController.Oper(Model.Models.Role)">
+            <summary>
+            操作角色
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.RoleController.EditStatus(System.Int64,System.Boolean)">
+            <summary>
+            修改角色状态
+            </summary>
+            <param name="id">角色id</param>
+            <param name="enable">角色状态</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.RoleController.Delete(System.Int64)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.RoleFeatureController">
+            <summary>
+            角色权限（功能）
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.RoleFeatureController.SetRoleFeatures(System.Int64,System.Int64[])">
+            <summary>
+            设置角色权限
+            </summary>
+            <param name="roleId">角色id</param>
+            <param name="featureIds">功能id集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.RoleFeatureController.GetRoleFeatureIds(System.Int64)">
+            <summary>
+            获取角色的功能id列表
+            </summary>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.RoleInterfaceController">
+            <summary>
+            角色接口
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.RoleInterfaceController.SetRoleInterfaces(System.Int64,System.Int64[])">
+            <summary>
+            设置角色接口
+            </summary>
+            <param name="roleId"></param>
+            <param name="interfaceIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.RoleInterfaceController.GetRoleInterfaceIds(System.Int64)">
+            <summary>
+            获取角色的接口id集合
+            </summary>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.ServiceController">
+            <summary>
+            服务
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.ServiceController.GetSystemInfo">
+            <summary>
+            获取系统信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.ServiceController.GetAppInfo">
+            <summary>
+            获取app信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.TimedTaskController">
+            <summary>
+            定时任务
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.TimedTaskController.GetPageList(System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取任务信息
+            </summary>
+            <param name="name"></param>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.TimedTaskController.Oper(Model.Models.TimedTask)">
+            <summary>
+            操作任务
+            </summary>
+            <param name="timedTask"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.TimedTaskController.Delete(System.Int64)">
+            <summary>
+            删除任务
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.TimedTaskController.Start(System.Int64)">
+            <summary>
+            开始一个任务
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.TimedTaskController.Stop(System.Int64)">
+            <summary>
+            停止一个任务
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.TimedTaskController.Reschedule(System.Int64)">
+            <summary>
+            重新安排任务
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.TimedTaskController.StartSchedule">
+            <summary>
+            开始任务调度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.TimedTaskController.StopSchedule">
+            <summary>
+            停止任务调度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.UserController">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.UserController.GetPageList(System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取用户信息
+            </summary>
+            <param name="name">用户名</param>
+            <param name="pageIndex">当前页数</param>
+            <param name="pageSize">一页大小</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.UserController.UserInfo">
+            <summary>
+            获取用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.UserController.Oper(Model.Models.User)">
+            <summary>
+            添加/修改用户
+            </summary>
+            <param name="user">用户信息</param>
+            <returns>返回是否成功</returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.UserController.EditStatus(System.Int64,System.Boolean)">
+            <summary>
+            修改用户状态
+            </summary>
+            <param name="id">id</param>
+            <param name="enable">是否启用</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.UserController.EditUserAvatar(System.Int64,System.String)">
+            <summary>
+            修改用户头像
+            </summary>
+            <param name="id">用户id</param>
+            <param name="avatarPath">头像路劲</param>
+            <returns>返回新的头像的路劲</returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.UserController.EditAvatar(System.String)">
+            <summary>
+            修改自己头像
+            </summary>
+            <param name="avatarPath">头像路劲</param>
+            <returns>返回新的头像的路劲</returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.UserController.EditInfo(System.String)">
+            <summary>
+            修改自己的用户信息
+            </summary>
+            <param name="nickName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.UserController.EditPass(OperateModels.EditPass)">
+            <summary>
+            修改自己的密码
+            </summary>
+            <param name="editPass"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Basics.UserController.Delete(System.Int64)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Basics.UserRoleController">
+            <summary>
+            用户角色
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Basics.UserRoleController.SetUserRoles(System.Int64,System.Int64[])">
+            <summary>
+            设置用户的角色
+            </summary>
+            <param name="userId">用户id</param>
+            <param name="roleIds">角色id集合</param>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Test.ApiVersionController">
+            <summary>
+            Swagger 接口文档版本控制
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Test.ApiVersionController.#ctor(Fast.Controllers.Test.SignalRController)">
+            <summary>
+            测试使用注入的控制器
+            </summary>
+            <param name="signalRController"></param>
+        </member>
+        <member name="T:Fast.Controllers.Test.DbTestController">
+            <summary>
+            测试数据库操作
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Test.DbTestController.AddData">
+            <summary>
+            测试添加数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.DbTestController.UpdateData">
+            <summary>
+            测试修改数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.DbTestController.UpdateClomnData">
+            <summary>
+            测试修改数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.DbTestController.DeleteData">
+            <summary>
+            测试删除数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Test.EventBusController">
+            <summary>
+            事件总线测试
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Test.EventBusController.EventBusTryDeleteI(EventBus.EventBus.IEventBusr,System.String)">
+            <summary>
+            测试RabbitMQ事件总线
+            调用删除接口
+            </summary>
+            <param name="_eventBus"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.EventBusController.EventBusTryAddUser(EventBus.EventBus.IEventBusr,System.String)">
+            <summary>
+            测试RabbitMQ事件总线
+            调用添加用户
+            </summary>
+            <param name="_eventBus"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.EventBusController.EventBusTryDeleteUser(EventBus.EventBus.IEventBusr,System.String)">
+            <summary>
+            测试RabbitMQ事件总线
+            调用删除用户
+            </summary>
+            <param name="_eventBus"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.EventBusController.UnSubscribe(EventBus.EventBus.IEventBusr)">
+            <summary>
+            测试RabbitMQ事件总线
+            取消订阅
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Fast.Controllers.Test.SignalRController">
+            <summary>
+            SignalR 测试
+            访问 http://localhost:8080/signalr/index.html 页面
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Test.SignalRController.AllSend(System.String)">
+            <summary>
+            向所有客户端发送消息
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:Fast.Controllers.Test.SignalRController.GroupSend(System.String,System.String)">
+            <summary>
+            向指定组发送信息
+            </summary>
+            <param name="groupName"></param>
+            <param name="msg"></param>
+        </member>
+        <member name="M:Fast.Controllers.Test.TestController.GetBQQXS(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取笔趣趣小说
+            </summary>
+            <param name="id">小说id</param>
+            <param name="o">初始页</param>
+            <param name="s">开始页</param>
+            <param name="e">结束页</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.TestController.GetB2XS(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取小说
+            </summary>
+            <param name="id">小说id</param>
+            <param name="o">初始页</param>
+            <param name="s">开始页</param>
+            <param name="e">结束页</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.TestController.GetB1XS(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取小说
+            </summary>
+            <param name="id">小说id</param>
+            <param name="o">初始页</param>
+            <param name="s">开始页</param>
+            <param name="e">结束页</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.TestController.GetXS(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取小说
+            </summary>
+            <param name="id">小说id</param>
+            <param name="o">初始页</param>
+            <param name="s">开始页</param>
+            <param name="e">结束页</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.TestController.GetOnePageXs(System.String,System.Int32)">
+            <summary>
+            获取一页小说
+            </summary>
+            <param name="id"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fast.Controllers.Test.TestController.CharToNumber(System.Char)">
+            <summary>
+            转换数字
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Test.TestController.CharToUnit(System.Char)">
+            <summary>
+            转换单位
+            </summary>
+        </member>
+        <member name="M:Fast.Controllers.Test.TestController.ParseCnToInt(System.String)">
+            <summary>
+            将中文数字转换阿拉伯数字
+            </summary>
+            <param name="cnum">汉字数字</param>
+            <returns>长整型阿拉伯数字</returns>
+        </member>
+        <member name="F:Fast.Startup._env">
+            <summary>
+            环境
+            </summary>
+        </member>
+        <member name="F:Fast.Startup._services">
+            <summary>
+            服务容器
+            </summary>
+        </member>
+        <member name="F:Fast.Startup._configuration">
+            <summary>
+            配置
+            </summary>
+        </member>
+        <member name="T:OperateModels.LoginInfo">
+            <summary>
+            登录用户
+            </summary>
+        </member>
+        <member name="T:OperateModels.EditPass">
+            <summary>
+            修改密码
+            </summary>
+        </member>
+    </members>
+</doc>

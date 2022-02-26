@@ -1,0 +1,22 @@
+{
+  //中间件配置
+  "Middleware": {
+    "AccessLog": { //访问日志
+      "Enabled": true
+    },
+    "SignalrRealTimeLog": { //给后台页面发送接口请求信息
+      "Enabled": true
+    },
+    "IpRateLimit": { //是否启动限流
+      "Enabled": false
+    },
+    "MiniProfiler": { //性能检测
+      "Enabled": true
+    },
+    "TestAuthUser": { //启动测试用户
+      "Enabled": true,
+      "TestUserId": "1", //测试用户id
+      "TestUserRole": "Admin" //测试用户角色
+    }
+  }
+}

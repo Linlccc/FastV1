@@ -1,0 +1,35 @@
+{
+  //限流规则
+  "IpRateLimiting": {
+    "EnableEndpointRateLimiting": true, //False：全局执行，true：每个执行
+    "StackBlockedRequests": false, //False: 拒绝次数应记录在另一个柜台上
+    "RealIpHeader": "X-Real-IP",
+    "ClientIdHeader": "X-ClientId",
+    "IpWhitelist": [], //白名单
+    "EndpointWhitelist": [ "get:/api/xxx", "*:/api/yyy" ],
+    "ClientWhitelist": [ "dev-client-1", "dev-client-2" ],
+    "HttpStatusCode": 429, //返回状态码
+    "GeneralRules": [ //api规则,结尾一定要带*
+      {
+        "Endpoint": "*:/api/test*",
+        "Period": "1m",
+        "Limit": 20
+      },
+      {
+        "Endpoint": "*/api/*",
+        "Period": "1s",
+        "Limit": 3
+      },
+      {
+        "Endpoint": "*/api/*",
+        "Period": "1m",
+        "Limit": 30
+      },
+      {
+        "Endpoint": "*/api/*",
+        "Period": "12h",
+        "Limit": 500
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+--------------------------------
+【报错时间】：2021/7/17 20:57:49
+【Sql参数】：@LoginName0:string|@constant1:B45CFFE084DD3D20D928BEE85E7B0F21
+【Sql语句】：SELECT [PlaintextPwd],[ErrorCount],[Remark],[Enabled],[AdminSignalrConnectionId],[NickName],[LoginName],[LoginPWD],[Avatar],[CreateTime],[UpdateTime],[LastLoginTime],[Id] FROM [User]  WHERE (( ( [Enabled]=1 ) AND( [LoginName] = @LoginName0 )) AND ( [LoginPWD] =@constant1))
+【堆栈跟踪】：   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+
+--------------------------------
+【报错时间】：2021/7/17 20:57:52
+【Sql参数】：@LoginName0:string|@constant1:B45CFFE084DD3D20D928BEE85E7B0F21
+【Sql语句】：SELECT [PlaintextPwd],[ErrorCount],[Remark],[Enabled],[AdminSignalrConnectionId],[NickName],[LoginName],[LoginPWD],[Avatar],[CreateTime],[UpdateTime],[LastLoginTime],[Id] FROM [User]  WHERE (( ( [Enabled]=1 ) AND( [LoginName] = @LoginName0 )) AND ( [LoginPWD] =@constant1))
+【堆栈跟踪】：   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+
+--------------------------------
+【报错时间】：2021/7/17 20:58:02
+【Sql参数】：@LoginName0:string|@constant1:B45CFFE084DD3D20D928BEE85E7B0F21
+【Sql语句】：SELECT [PlaintextPwd],[ErrorCount],[Remark],[Enabled],[AdminSignalrConnectionId],[NickName],[LoginName],[LoginPWD],[Avatar],[CreateTime],[UpdateTime],[LastLoginTime],[Id] FROM [User]  WHERE (( ( [Enabled]=1 ) AND( [LoginName] = @LoginName0 )) AND ( [LoginPWD] =@constant1))
+【堆栈跟踪】：   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+
+--------------------------------
+【报错时间】：2021/7/17 20:58:03
+【Sql参数】：@LoginName0:string|@constant1:B45CFFE084DD3D20D928BEE85E7B0F21
+【Sql语句】：SELECT [PlaintextPwd],[ErrorCount],[Remark],[Enabled],[AdminSignalrConnectionId],[NickName],[LoginName],[LoginPWD],[Avatar],[CreateTime],[UpdateTime],[LastLoginTime],[Id] FROM [User]  WHERE (( ( [Enabled]=1 ) AND( [LoginName] = @LoginName0 )) AND ( [LoginPWD] =@constant1))
+【堆栈跟踪】：   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+
+--------------------------------
+【报错时间】：2021/7/17 20:58:07
+【Sql参数】：@LoginName0:string|@constant1:B45CFFE084DD3D20D928BEE85E7B0F21
+【Sql语句】：SELECT [PlaintextPwd],[ErrorCount],[Remark],[Enabled],[AdminSignalrConnectionId],[NickName],[LoginName],[LoginPWD],[Avatar],[CreateTime],[UpdateTime],[LastLoginTime],[Id] FROM [User]  WHERE (( ( [Enabled]=1 ) AND( [LoginName] = @LoginName0 )) AND ( [LoginPWD] =@constant1))
+【堆栈跟踪】：   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+
+--------------------------------
+【报错时间】：2021/7/17 21:00:44
+【Sql参数】：
+【Sql语句】：ALTER TABLE [User] ADD [AdminSignalrConnectionId] varchar(255) NOT NULL  
+【堆栈跟踪】：   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+

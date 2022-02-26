@@ -1,0 +1,730 @@
+--------------------------------
+【操作时间】：2021/7/17 11:22:04
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：72
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 20:55:38
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：72
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 20:57:49
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：117
+【结果】：方法中出现异常：One or more errors occurred. (列名 'AdminSignalrConnectionId' 无效。)System.Data.SqlClient.SqlException (0x80131904): 列名 'AdminSignalrConnectionId' 无效。
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+   at SqlSugar.QueryableProvider`1.SingleAsync()
+   at SqlSugar.QueryableProvider`1.SingleAsync(Expression`1 expression)
+   at SqlSugar.BaseClient`1.SingleAsync(Expression`1 whereExpression) in F:\Code\SVN\CoreFrame\Fast_v1.0\SugarClient\BASE\BaseClientAsync.cs:line 18
+ClientConnectionId:de9ed5f4-82dd-48c7-b558-fe1ddcc9b953
+Error Number:207,State:1,Class:16
+
+--------------------------------
+【操作时间】：2021/7/17 20:57:52
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：24
+【结果】：方法中出现异常：One or more errors occurred. (列名 'AdminSignalrConnectionId' 无效。)System.Data.SqlClient.SqlException (0x80131904): 列名 'AdminSignalrConnectionId' 无效。
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+   at SqlSugar.QueryableProvider`1.SingleAsync()
+   at SqlSugar.QueryableProvider`1.SingleAsync(Expression`1 expression)
+   at SqlSugar.BaseClient`1.SingleAsync(Expression`1 whereExpression) in F:\Code\SVN\CoreFrame\Fast_v1.0\SugarClient\BASE\BaseClientAsync.cs:line 18
+ClientConnectionId:de9ed5f4-82dd-48c7-b558-fe1ddcc9b953
+Error Number:207,State:1,Class:16
+
+--------------------------------
+【操作时间】：2021/7/17 20:58:01
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：26
+【结果】：方法中出现异常：One or more errors occurred. (列名 'AdminSignalrConnectionId' 无效。)System.Data.SqlClient.SqlException (0x80131904): 列名 'AdminSignalrConnectionId' 无效。
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+   at SqlSugar.QueryableProvider`1.SingleAsync()
+   at SqlSugar.QueryableProvider`1.SingleAsync(Expression`1 expression)
+   at SqlSugar.BaseClient`1.SingleAsync(Expression`1 whereExpression) in F:\Code\SVN\CoreFrame\Fast_v1.0\SugarClient\BASE\BaseClientAsync.cs:line 18
+ClientConnectionId:de9ed5f4-82dd-48c7-b558-fe1ddcc9b953
+Error Number:207,State:1,Class:16
+
+--------------------------------
+【操作时间】：2021/7/17 20:58:03
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：26
+【结果】：方法中出现异常：One or more errors occurred. (列名 'AdminSignalrConnectionId' 无效。)System.Data.SqlClient.SqlException (0x80131904): 列名 'AdminSignalrConnectionId' 无效。
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+   at SqlSugar.QueryableProvider`1.SingleAsync()
+   at SqlSugar.QueryableProvider`1.SingleAsync(Expression`1 expression)
+   at SqlSugar.BaseClient`1.SingleAsync(Expression`1 whereExpression) in F:\Code\SVN\CoreFrame\Fast_v1.0\SugarClient\BASE\BaseClientAsync.cs:line 18
+ClientConnectionId:de9ed5f4-82dd-48c7-b558-fe1ddcc9b953
+Error Number:207,State:1,Class:16
+
+--------------------------------
+【操作时间】：2021/7/17 20:58:07
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：27
+【结果】：方法中出现异常：One or more errors occurred. (列名 'AdminSignalrConnectionId' 无效。)System.Data.SqlClient.SqlException (0x80131904): 列名 'AdminSignalrConnectionId' 无效。
+   at SqlSugar.AdoProvider.GetDataReaderAsync(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetDataAsync[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToListAsync[TResult]()
+   at SqlSugar.QueryableProvider`1.SingleAsync()
+   at SqlSugar.QueryableProvider`1.SingleAsync(Expression`1 expression)
+   at SqlSugar.BaseClient`1.SingleAsync(Expression`1 whereExpression) in F:\Code\SVN\CoreFrame\Fast_v1.0\SugarClient\BASE\BaseClientAsync.cs:line 18
+ClientConnectionId:de9ed5f4-82dd-48c7-b558-fe1ddcc9b953
+Error Number:207,State:1,Class:16
+
+--------------------------------
+【操作时间】：2021/7/17 21:01:31
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：62
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 21:04:13
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：90
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621140003386169167485148799045.png","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T10:18:20.837","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 21:04:14
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.LastLoginTime == DateTime.Now), u => (u.Id == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).user.Id)
+【工作时间ms】：74
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 21:04:14
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：QueryUserRolesById
+【携带参数】：167485148799045
+【工作时间ms】：42
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621140003386169167485148799045.png","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:04:14.223","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 21:06:14
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：77
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 21:06:17
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：87
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621140003386169167485148799045.png","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:04:14.223","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 21:06:17
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.LastLoginTime == DateTime.Now), u => (u.Id == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).user.Id)
+【工作时间ms】：76
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 21:06:18
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：QueryUserRolesById
+【携带参数】：167485148799045
+【工作时间ms】：51
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621140003386169167485148799045.png","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:06:17.677","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 21:06:18
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：FeaturesClient
+【操作方法】：GetUserFeatureTree
+【携带参数】：167485148799045
+【工作时间ms】：54
+【结果】：[{"ChildFeaturesList":[{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"系统信息","PageName":null,"Description":null,"FatherId":177394914639941,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":177835511853125},{"ChildFeaturesList":[],"Name":"应用信息","PageName":null,"Description":null,"FatherId":177394914639941,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":177835645956165},{"ChildFeaturesList":[],"Name":"应用信息刷新","PageName":null,"Description":null,"FatherId":177394914639941,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":177835720732741}],"Name":"首页","PageName":"Index","Description":null,"FatherId":177394228846661,"IsElement":false,"Icon":"el-icon-sunset","Route":"/","Redirect":"","ViewPath":"views/Index/Index.vue","Sort":0,"ShowVisited":true,"AffixView":true,"CacheView":true,"Enabled":true,"Id":177394914639941}],"Name":"欢迎","PageName":"欢迎","Description":null,"FatherId":0,"IsElement":false,"Icon":null,"Route":"/","Redirect":null,"ViewPath":null,"Sort":10,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":177394228846661},{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"实时日志","PageName":"RealTimeLog","Description":null,"FatherId":178381702578245,"IsElement":false,"Icon":"el-icon-s-order","Route":"/RealTimeLog","Redirect":null,"ViewPath":"views/RealTimeLog/RealTimeLog.vue","Sort":0,"ShowVisited":true,"AffixView":true,"CacheView":true,"Enabled":true,"Id":178382433607749}],"Name":"日志","PageName":"","Description":null,"FatherId":0,"IsElement":false,"Icon":"","Route":"/RealTimeLog","Redirect":null,"ViewPath":"","Sort":10,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":178381702578245},{"ChildFeaturesList":[{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"输入框","PageName":"输入框","Description":null,"FatherId":170562855641157,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170585304604741},{"ChildFeaturesList":[],"Name":"查询","PageName":"查询","Description":null,"FatherId":170562855641157,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170601805099077},{"ChildFeaturesList":[],"Name":"添加","PageName":"添加","Description":null,"FatherId":170562855641157,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170601869049925},{"ChildFeaturesList":[],"Name":"编辑","PageName":"编辑","Description":null,"FatherId":170562855641157,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170601928052805},{"ChildFeaturesList":[],"Name":"删除","PageName":"删除","Description":null,"FatherId":170562855641157,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170601973534789}],"Name":"用户管理","PageName":"UserManage","Description":null,"FatherId":170322851647557,"IsElement":false,"Icon":"el-icon-user-solid","Route":"User","Redirect":"","ViewPath":"views/UserManage/UserManage.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170562855641157},{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"输入框","PageName":"输入框","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170632263036997},{"ChildFeaturesList":[],"Name":"查询","PageName":"查询","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170632416579653},{"ChildFeaturesList":[],"Name":"添加","PageName":"添加","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170632461508677},{"ChildFeaturesList":[],"Name":"编辑","PageName":"编辑","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170632526458949},{"ChildFeaturesList":[],"Name":"编辑功能","PageName":"编辑功能","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170636604837957},{"ChildFeaturesList":[],"Name":"编辑接口权限","PageName":"编辑接口权限","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170636658319429},{"ChildFeaturesList":[],"Name":"删除","PageName":"删除","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170636724219973}],"Name":"角色管理","PageName":"RoleManage","Description":null,"FatherId":170322851647557,"IsElement":false,"Icon":"el-icon-user","Route":"Role","Redirect":null,"ViewPath":"views/RoleManage/RoleManage.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170563117412421}],"Name":"用户角色管理","PageName":"用户角色管理","Description":null,"FatherId":0,"IsElement":false,"Icon":"el-icon-s-custom","Route":"/UserRoleManage","Redirect":"/UserRoleManage/User","ViewPath":null,"Sort":9,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170322851647557},{"ChildFeaturesList":[{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"刷新","PageName":"刷新","Description":null,"FatherId":170567751098437,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641039663173},{"ChildFeaturesList":[],"Name":"添加","PageName":"添加","Description":null,"FatherId":170567751098437,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641091735621},{"ChildFeaturesList":[],"Name":"编辑","PageName":"编辑","Description":null,"FatherId":170567751098437,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641135292485},{"ChildFeaturesList":[],"Name":"删除","PageName":"删除","Description":null,"FatherId":170567751098437,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641176203333}],"Name":"功能管理","PageName":"FeatureManage","Description":null,"FatherId":170567266549829,"IsElement":false,"Icon":"el-icon-film","Route":"Features","Redirect":null,"ViewPath":"views/FeatureManage/FeatureManage.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170567751098437},{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"输入框","PageName":"输入框","Description":null,"FatherId":170568105865285,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641244524613},{"ChildFeaturesList":[],"Name":"查询","PageName":"查询","Description":null,"FatherId":170568105865285,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641310711877},{"ChildFeaturesList":[],"Name":"添加","PageName":"添加","Description":null,"FatherId":170568105865285,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641367167045},{"ChildFeaturesList":[],"Name":"编辑","PageName":"编辑","Description":null,"FatherId":170568105865285,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641409646661},{"ChildFeaturesList":[],"Name":"删除","PageName":"删除","Description":null,"FatherId":170568105865285,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641443061829}],"Name":"接口管理","PageName":"InterfaceManage","Description":null,"FatherId":170567266549829,"IsElement":false,"Icon":"el-icon-notebook-2","Route":"Interface","Redirect":null,"ViewPath":"views/InterfaceManage/InterfaceManage.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170568105865285}],"Name":"接口/功能管理","PageName":"接口/功能管理","Description":null,"FatherId":0,"IsElement":false,"Icon":"el-icon-s-management","Route":"/PermissionManage","Redirect":"/PermissionManage/Features","ViewPath":null,"Sort":8,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170567266549829},{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"编辑信息","PageName":"UserEdit","Description":null,"FatherId":176335751815237,"IsElement":false,"Icon":"el-icon-user-solid","Route":"UserEdit","Redirect":null,"ViewPath":"views/User/UserEdit.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":176336053174341},{"ChildFeaturesList":[],"Name":"修改密码","PageName":"UserPass","Description":null,"FatherId":176335751815237,"IsElement":false,"Icon":"el-icon-lock","Route":"Pass","Redirect":null,"ViewPath":"views/User/UserPass.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":176336293769285}],"Name":"用户信息","PageName":"用户信息","Description":null,"FatherId":0,"IsElement":false,"Icon":"el-icon-user-solid","Route":"/User","Redirect":"/User/UserEdit","ViewPath":null,"Sort":7,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176335751815237},{"ChildFeaturesList":[{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"输入框","PageName":"输入框","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244301541445},{"ChildFeaturesList":[],"Name":"查询","PageName":"查询","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244534300741},{"ChildFeaturesList":[],"Name":"添加","PageName":"添加","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244595617861},{"ChildFeaturesList":[],"Name":"编辑","PageName":"编辑","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244652335173},{"ChildFeaturesList":[],"Name":"删除","PageName":"删除","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244705194053},{"ChildFeaturesList":[],"Name":"开始任务调度","PageName":"开始任务调度","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244768170053},{"ChildFeaturesList":[],"Name":"结束任务调度","PageName":"结束任务调度","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244813303877},{"ChildFeaturesList":[],"Name":"启动任务","PageName":"启动任务","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244856090693},{"ChildFeaturesList":[],"Name":"停止任务","PageName":"停止任务","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244902895685},{"ChildFeaturesList":[],"Name":"重新安排任务","PageName":"重新安排任务","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244941983813}],"Name":"定时任务管理","PageName":"TaskManage","Description":null,"FatherId":175962042814533,"IsElement":false,"Icon":"el-icon-s-order","Route":"/TaskManage","Redirect":null,"ViewPath":"views/TaskManage/TaskManage.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":175962488012869}],"Name":"任务管理","PageName":"任务管理","Description":null,"FatherId":0,"IsElement":false,"Icon":null,"Route":"/TaskManage","Redirect":null,"ViewPath":null,"Sort":6,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":175962042814533},{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"Feature2","PageName":"Feature2","Description":"功能2","FatherId":167501107089477,"IsElement":false,"Icon":"el-icon-more","Route":"/dt1","Redirect":null,"ViewPath":"views/Home.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":167501159268421},{"ChildFeaturesList":[],"Name":"Feature3","PageName":"Feature3","Description":"功能3","FatherId":167501107089477,"IsElement":false,"Icon":"el-icon-star-off","Route":"/t/dt2","Redirect":null,"ViewPath":"views/T1.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":167501233823813}],"Name":"Feature1","PageName":"Feature1","Description":"功能1-","FatherId":0,"IsElement":false,"Icon":"el-icon-video-camera-solid","Route":"/feature1","Redirect":"/dt1","ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":167501107089477},{"ChildFeaturesList":[{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"t2","PageName":"t2","Description":null,"FatherId":170242269503557,"IsElement":false,"Icon":null,"Route":"t2","Redirect":null,"ViewPath":"views/T2.vue","Sort":1,"ShowVisited":false,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170643778740293},{"ChildFeaturesList":[],"Name":"t1","PageName":"t1","Description":null,"FatherId":170242269503557,"IsElement":false,"Icon":null,"Route":"t1","Redirect":null,"ViewPath":"views/T2.vue","Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170643742761029}],"Name":"S1","PageName":"S1","Description":null,"FatherId":170242023129157,"IsElement":false,"Icon":"el-icon-s-ticket","Route":"s1","Redirect":null,"ViewPath":"views/T2.vue","Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170242269503557},{"ChildFeaturesList":[],"Name":"s2","PageName":"s2","Description":null,"FatherId":170242023129157,"IsElement":false,"Icon":"el-icon-picture-outline-round","Route":"s2","Redirect":null,"ViewPath":"views/Home.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170308855545925}],"Name":"Test1","PageName":"Test1","Description":null,"FatherId":0,"IsElement":false,"Icon":"el-icon-s-home","Route":"/T1","Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170242023129157}]
+
+--------------------------------
+【操作时间】：2021/7/17 21:06:54
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：35
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621140003386169167485148799045.png","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:06:17.677","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 21:06:54
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.LastLoginTime == DateTime.Now), u => (u.Id == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).user.Id)
+【工作时间ms】：23
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 21:06:55
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：QueryUserRolesById
+【携带参数】：167485148799045
+【工作时间ms】：29
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621140003386169167485148799045.png","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:06:54.967","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 21:07:35
+【操作用户】：囍
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：PageList
+【携带参数】："", 1, 20
+【工作时间ms】：134
+【结果】：{"PageIndex":1,"PageSize":20,"TotalPageCount":1,"TotalDataCount":7,"Data":[{"PlaintextPwd":"string","ErrorCount":0,"Remark":"用户7","Enabled":false,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"user7","LoginName":"user7-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-10T16:48:36","UpdateTime":"2021-06-10T16:56:42.773","LastLoginTime":"1753-01-01T00:00:00","Id":168549230907461},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"用户6","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237}],"NickName":"user6","LoginName":"user6-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-10T16:47:21.16","UpdateTime":"2021-06-10T16:47:21.457","LastLoginTime":"2021-06-16T15:35:36.303","Id":168548921942085},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"1","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237}],"NickName":"user5","LoginName":"user5-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-09T17:30:53","UpdateTime":"2021-06-09T17:33:19.74","LastLoginTime":"2021-07-06T23:26:30.02","Id":168205729476677},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"1","Enabled":false,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"role2-1（edi","Description":"角色2-1","Enabled":true,"CreateTime":"2021-06-08T16:55:14","Id":167843072184389}],"NickName":"user4","LoginName":"user4-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-09T17:20:38.26","UpdateTime":"2021-06-09T17:20:38.293","LastLoginTime":"1753-01-01T00:00:00","Id":168203207692357},{"PlaintextPwd":"strng","ErrorCount":0,"Remark":"用户3","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421},{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237},{"FeaturesList":null,"Name":"role1-1","Description":"角色1-1","Enabled":true,"CreateTime":"2021-06-08T11:26:29","Id":167748069806149},{"FeaturesList":null,"Name":"role1-2","Description":"角色1-2","Enabled":false,"CreateTime":"2021-06-08T18:55:19","Id":167843456700485},{"FeaturesList":null,"Name":"role4","Description":"角色4","Enabled":true,"CreateTime":"2021-06-09T11:08:08.62","Id":168111708581957},{"FeaturesList":null,"Name":"role5","Description":"角色5","Enabled":true,"CreateTime":"2021-06-09T11:10:13.427","Id":168112234131525}],"NickName":"user3","LoginName":"user3-l","LoginPWD":"E690117B47E06EBFCAFAEDCC95180E47","Avatar":null,"CreateTime":"2021-06-09T16:07:14.71","UpdateTime":"2021-06-09T16:07:14.74","LastLoginTime":"1753-01-01T00:00:00","Id":168185170694213},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"测试1用户","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237}],"NickName":"Test1","LoginName":"string1","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637612082642511620168184931029061.jpg","CreateTime":"2021-06-09T16:06:16","UpdateTime":"2021-07-06T22:41:45.753","LastLoginTime":"2021-07-08T11:28:49.797","Id":168184931029061},{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621140003386169167485148799045.png","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:06:54.967","Id":167485148799045}]}
+
+--------------------------------
+【操作时间】：2021/7/17 21:07:35
+【操作用户】：囍
+【操作用户Id】：
+【操作类型】：RoleClient
+【操作方法】：QueryAsync
+【携带参数】：
+【工作时间ms】：31
+【结果】：[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421},{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237},{"FeaturesList":null,"Name":"role1-1","Description":"角色1-1","Enabled":true,"CreateTime":"2021-06-08T11:26:29","Id":167748069806149},{"FeaturesList":null,"Name":"role2-1（edi","Description":"角色2-1","Enabled":true,"CreateTime":"2021-06-08T16:55:14","Id":167843072184389},{"FeaturesList":null,"Name":"role1-2","Description":"角色1-2","Enabled":false,"CreateTime":"2021-06-08T18:55:19","Id":167843456700485},{"FeaturesList":null,"Name":"role3","Description":"角色3","Enabled":false,"CreateTime":"2021-06-09T09:35:04.727","Id":168088838139973},{"FeaturesList":null,"Name":"role3-1","Description":"角色3-1","Enabled":true,"CreateTime":"2021-06-09T09:36:53.69","Id":168089295814725},{"FeaturesList":null,"Name":"role4","Description":"角色4","Enabled":true,"CreateTime":"2021-06-09T11:08:08.62","Id":168111708581957},{"FeaturesList":null,"Name":"role5","Description":"角色5","Enabled":true,"CreateTime":"2021-06-09T11:10:13.427","Id":168112234131525}]
+
+--------------------------------
+【操作时间】：2021/7/17 21:07:46
+【操作用户】：囍
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => (u.Enabled AndAlso (u.Id == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass5_0).userInfo.Uid))
+【工作时间ms】：26
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621140003386169167485148799045.png","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:06:54.967","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 21:07:46
+【操作用户】：囍
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.LastLoginTime == DateTime.Now), u => (u.Id == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass5_0).user.Id)
+【工作时间ms】：25
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 21:07:47
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：QueryUserRolesById
+【携带参数】：167485148799045
+【工作时间ms】：40
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621140003386169167485148799045.png","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:07:46.69","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 21:07:52
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：UpdateColumnsAsync
+【携带参数】：{"PlaintextPwd":null,"ErrorCount":0,"Remark":null,"Enabled":false,"AdminSignalrConnectionId":null,"Roles":null,"NickName":null,"LoginName":null,"LoginPWD":null,"Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-07-17T21:07:52.8661695+08:00","UpdateTime":"2021-07-17T21:07:52.8661709+08:00","LastLoginTime":"2021-07-17T21:07:52.866171+08:00","Id":167485148799045}, u => u.Avatar
+【工作时间ms】：37
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 21:07:58
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：RoleClient
+【操作方法】：QueryAsync
+【携带参数】：
+【工作时间ms】：110
+【结果】：[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421},{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237},{"FeaturesList":null,"Name":"role1-1","Description":"角色1-1","Enabled":true,"CreateTime":"2021-06-08T11:26:29","Id":167748069806149},{"FeaturesList":null,"Name":"role2-1（edi","Description":"角色2-1","Enabled":true,"CreateTime":"2021-06-08T16:55:14","Id":167843072184389},{"FeaturesList":null,"Name":"role1-2","Description":"角色1-2","Enabled":false,"CreateTime":"2021-06-08T18:55:19","Id":167843456700485},{"FeaturesList":null,"Name":"role3","Description":"角色3","Enabled":false,"CreateTime":"2021-06-09T09:35:04.727","Id":168088838139973},{"FeaturesList":null,"Name":"role3-1","Description":"角色3-1","Enabled":true,"CreateTime":"2021-06-09T09:36:53.69","Id":168089295814725},{"FeaturesList":null,"Name":"role4","Description":"角色4","Enabled":true,"CreateTime":"2021-06-09T11:08:08.62","Id":168111708581957},{"FeaturesList":null,"Name":"role5","Description":"角色5","Enabled":true,"CreateTime":"2021-06-09T11:10:13.427","Id":168112234131525}]
+
+--------------------------------
+【操作时间】：2021/7/17 21:07:58
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：PageList
+【携带参数】："", 1, 20
+【工作时间ms】：40
+【结果】：{"PageIndex":1,"PageSize":20,"TotalPageCount":1,"TotalDataCount":7,"Data":[{"PlaintextPwd":"string","ErrorCount":0,"Remark":"用户7","Enabled":false,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"user7","LoginName":"user7-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-10T16:48:36","UpdateTime":"2021-06-10T16:56:42.773","LastLoginTime":"1753-01-01T00:00:00","Id":168549230907461},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"用户6","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237}],"NickName":"user6","LoginName":"user6-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-10T16:47:21.16","UpdateTime":"2021-06-10T16:47:21.457","LastLoginTime":"2021-06-16T15:35:36.303","Id":168548921942085},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"1","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237}],"NickName":"user5","LoginName":"user5-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-09T17:30:53","UpdateTime":"2021-06-09T17:33:19.74","LastLoginTime":"2021-07-06T23:26:30.02","Id":168205729476677},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"1","Enabled":false,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"role2-1（edi","Description":"角色2-1","Enabled":true,"CreateTime":"2021-06-08T16:55:14","Id":167843072184389}],"NickName":"user4","LoginName":"user4-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-09T17:20:38.26","UpdateTime":"2021-06-09T17:20:38.293","LastLoginTime":"1753-01-01T00:00:00","Id":168203207692357},{"PlaintextPwd":"strng","ErrorCount":0,"Remark":"用户3","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421},{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237},{"FeaturesList":null,"Name":"role1-1","Description":"角色1-1","Enabled":true,"CreateTime":"2021-06-08T11:26:29","Id":167748069806149},{"FeaturesList":null,"Name":"role1-2","Description":"角色1-2","Enabled":false,"CreateTime":"2021-06-08T18:55:19","Id":167843456700485},{"FeaturesList":null,"Name":"role4","Description":"角色4","Enabled":true,"CreateTime":"2021-06-09T11:08:08.62","Id":168111708581957},{"FeaturesList":null,"Name":"role5","Description":"角色5","Enabled":true,"CreateTime":"2021-06-09T11:10:13.427","Id":168112234131525}],"NickName":"user3","LoginName":"user3-l","LoginPWD":"E690117B47E06EBFCAFAEDCC95180E47","Avatar":null,"CreateTime":"2021-06-09T16:07:14.71","UpdateTime":"2021-06-09T16:07:14.74","LastLoginTime":"1753-01-01T00:00:00","Id":168185170694213},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"测试1用户","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237}],"NickName":"Test1","LoginName":"string1","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637612082642511620168184931029061.jpg","CreateTime":"2021-06-09T16:06:16","UpdateTime":"2021-07-06T22:41:45.753","LastLoginTime":"2021-07-08T11:28:49.797","Id":168184931029061},{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:07:46.69","Id":167485148799045}]}
+
+--------------------------------
+【操作时间】：2021/7/17 21:08:43
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：IsAnyAsync
+【携带参数】：u => (((u.LoginName == value(Fast.Controllers.Basics.UserController+<>c__DisplayClass12_0).user.LoginName) AndAlso (u.Id != value(Fast.Controllers.Basics.UserController+<>c__DisplayClass12_0).user.Id)) AndAlso u.Enabled)
+【工作时间ms】：36
+【结果】：false
+
+--------------------------------
+【操作时间】：2021/7/17 21:08:43
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：IsAnyAsync
+【携带参数】：u => (u.Id == value(Fast.Controllers.Basics.UserController+<>c__DisplayClass12_0).user.Id)
+【工作时间ms】：23
+【结果】：false
+
+--------------------------------
+【操作时间】：2021/7/17 21:08:43
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：StorageableAsync
+【携带参数】：[{"PlaintextPwd":"1","ErrorCount":0,"Remark":"1","Enabled":true,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"uu","LoginName":"uu","LoginPWD":"C4CA4238A0B923820DCC509A6F75849B","Avatar":null,"CreateTime":"2021-07-17T21:08:43.4398028+08:00","UpdateTime":"2021-07-17T21:08:43.4398417+08:00","LastLoginTime":"0001-01-01T00:00:00","Id":181707213328453}]
+【工作时间ms】：110
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 21:08:43
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：PageList
+【携带参数】："", 1, 20
+【工作时间ms】：25
+【结果】：{"PageIndex":1,"PageSize":20,"TotalPageCount":1,"TotalDataCount":8,"Data":[{"PlaintextPwd":"1","ErrorCount":0,"Remark":"1","Enabled":true,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"uu","LoginName":"uu","LoginPWD":"C4CA4238A0B923820DCC509A6F75849B","Avatar":null,"CreateTime":"2021-07-17T21:08:43.44","UpdateTime":"2021-07-17T21:08:43.44","LastLoginTime":"1753-01-01T00:00:00","Id":181707213328453},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"用户7","Enabled":false,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"user7","LoginName":"user7-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-10T16:48:36","UpdateTime":"2021-06-10T16:56:42.773","LastLoginTime":"1753-01-01T00:00:00","Id":168549230907461},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"用户6","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237}],"NickName":"user6","LoginName":"user6-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-10T16:47:21.16","UpdateTime":"2021-06-10T16:47:21.457","LastLoginTime":"2021-06-16T15:35:36.303","Id":168548921942085},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"1","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237}],"NickName":"user5","LoginName":"user5-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-09T17:30:53","UpdateTime":"2021-06-09T17:33:19.74","LastLoginTime":"2021-07-06T23:26:30.02","Id":168205729476677},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"1","Enabled":false,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"role2-1（edi","Description":"角色2-1","Enabled":true,"CreateTime":"2021-06-08T16:55:14","Id":167843072184389}],"NickName":"user4","LoginName":"user4-l","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":null,"CreateTime":"2021-06-09T17:20:38.26","UpdateTime":"2021-06-09T17:20:38.293","LastLoginTime":"1753-01-01T00:00:00","Id":168203207692357},{"PlaintextPwd":"strng","ErrorCount":0,"Remark":"用户3","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421},{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237},{"FeaturesList":null,"Name":"role1-1","Description":"角色1-1","Enabled":true,"CreateTime":"2021-06-08T11:26:29","Id":167748069806149},{"FeaturesList":null,"Name":"role1-2","Description":"角色1-2","Enabled":false,"CreateTime":"2021-06-08T18:55:19","Id":167843456700485},{"FeaturesList":null,"Name":"role4","Description":"角色4","Enabled":true,"CreateTime":"2021-06-09T11:08:08.62","Id":168111708581957},{"FeaturesList":null,"Name":"role5","Description":"角色5","Enabled":true,"CreateTime":"2021-06-09T11:10:13.427","Id":168112234131525}],"NickName":"user3","LoginName":"user3-l","LoginPWD":"E690117B47E06EBFCAFAEDCC95180E47","Avatar":null,"CreateTime":"2021-06-09T16:07:14.71","UpdateTime":"2021-06-09T16:07:14.74","LastLoginTime":"1753-01-01T00:00:00","Id":168185170694213},{"PlaintextPwd":"string","ErrorCount":0,"Remark":"测试1用户","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Test1","Description":"测试1角色","Enabled":true,"CreateTime":"2021-06-08T11:26:26","Id":167501840007237}],"NickName":"Test1","LoginName":"string1","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637612082642511620168184931029061.jpg","CreateTime":"2021-06-09T16:06:16","UpdateTime":"2021-07-06T22:41:45.753","LastLoginTime":"2021-07-08T11:28:49.797","Id":168184931029061},{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:07:46.69","Id":167485148799045}]}
+
+--------------------------------
+【操作时间】：2021/7/17 21:33:53
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：74
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 21:44:03
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：72
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 21:54:40
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：79
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 21:57:35
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：107
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 22:00:43
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：82
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 22:07:34
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：70
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 22:07:57
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：99
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:08:51
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：40
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:26:29
+【操作用户】：
+【操作用户Id】：
+【操作类型】：TimedTaskClient
+【操作方法】：QueryAsync
+【携带参数】：t => t.IsStart
+【工作时间ms】：92
+【结果】：[]
+
+--------------------------------
+【操作时间】：2021/7/17 22:28:28
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：103
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T21:07:46.69","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 22:28:28
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.LastLoginTime == DateTime.Now), u => (u.Id == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).user.Id)
+【工作时间ms】：83
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:28:28
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：37
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:28:29
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：QueryUserRolesById
+【携带参数】：167485148799045
+【工作时间ms】：40
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":"Q3U_j5WZYu45mFC6JYqwcw","Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T22:28:28.433","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 22:28:29
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：FeaturesClient
+【操作方法】：GetUserFeatureTree
+【携带参数】：167485148799045
+【工作时间ms】：54
+【结果】：[{"ChildFeaturesList":[{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"系统信息","PageName":null,"Description":null,"FatherId":177394914639941,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":177835511853125},{"ChildFeaturesList":[],"Name":"应用信息","PageName":null,"Description":null,"FatherId":177394914639941,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":177835645956165},{"ChildFeaturesList":[],"Name":"应用信息刷新","PageName":null,"Description":null,"FatherId":177394914639941,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":177835720732741}],"Name":"首页","PageName":"Index","Description":null,"FatherId":177394228846661,"IsElement":false,"Icon":"el-icon-sunset","Route":"/","Redirect":"","ViewPath":"views/Index/Index.vue","Sort":0,"ShowVisited":true,"AffixView":true,"CacheView":true,"Enabled":true,"Id":177394914639941}],"Name":"欢迎","PageName":"欢迎","Description":null,"FatherId":0,"IsElement":false,"Icon":null,"Route":"/","Redirect":null,"ViewPath":null,"Sort":10,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":177394228846661},{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"实时日志","PageName":"RealTimeLog","Description":null,"FatherId":178381702578245,"IsElement":false,"Icon":"el-icon-s-order","Route":"/RealTimeLog","Redirect":null,"ViewPath":"views/RealTimeLog/RealTimeLog.vue","Sort":0,"ShowVisited":true,"AffixView":true,"CacheView":true,"Enabled":true,"Id":178382433607749}],"Name":"日志","PageName":"","Description":null,"FatherId":0,"IsElement":false,"Icon":"","Route":"/RealTimeLog","Redirect":null,"ViewPath":"","Sort":10,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":178381702578245},{"ChildFeaturesList":[{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"输入框","PageName":"输入框","Description":null,"FatherId":170562855641157,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170585304604741},{"ChildFeaturesList":[],"Name":"查询","PageName":"查询","Description":null,"FatherId":170562855641157,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170601805099077},{"ChildFeaturesList":[],"Name":"添加","PageName":"添加","Description":null,"FatherId":170562855641157,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170601869049925},{"ChildFeaturesList":[],"Name":"编辑","PageName":"编辑","Description":null,"FatherId":170562855641157,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170601928052805},{"ChildFeaturesList":[],"Name":"删除","PageName":"删除","Description":null,"FatherId":170562855641157,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170601973534789}],"Name":"用户管理","PageName":"UserManage","Description":null,"FatherId":170322851647557,"IsElement":false,"Icon":"el-icon-user-solid","Route":"User","Redirect":"","ViewPath":"views/UserManage/UserManage.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170562855641157},{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"输入框","PageName":"输入框","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170632263036997},{"ChildFeaturesList":[],"Name":"查询","PageName":"查询","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170632416579653},{"ChildFeaturesList":[],"Name":"添加","PageName":"添加","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170632461508677},{"ChildFeaturesList":[],"Name":"编辑","PageName":"编辑","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170632526458949},{"ChildFeaturesList":[],"Name":"编辑功能","PageName":"编辑功能","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170636604837957},{"ChildFeaturesList":[],"Name":"编辑接口权限","PageName":"编辑接口权限","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170636658319429},{"ChildFeaturesList":[],"Name":"删除","PageName":"删除","Description":null,"FatherId":170563117412421,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170636724219973}],"Name":"角色管理","PageName":"RoleManage","Description":null,"FatherId":170322851647557,"IsElement":false,"Icon":"el-icon-user","Route":"Role","Redirect":null,"ViewPath":"views/RoleManage/RoleManage.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170563117412421}],"Name":"用户角色管理","PageName":"用户角色管理","Description":null,"FatherId":0,"IsElement":false,"Icon":"el-icon-s-custom","Route":"/UserRoleManage","Redirect":"/UserRoleManage/User","ViewPath":null,"Sort":9,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170322851647557},{"ChildFeaturesList":[{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"刷新","PageName":"刷新","Description":null,"FatherId":170567751098437,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641039663173},{"ChildFeaturesList":[],"Name":"添加","PageName":"添加","Description":null,"FatherId":170567751098437,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641091735621},{"ChildFeaturesList":[],"Name":"编辑","PageName":"编辑","Description":null,"FatherId":170567751098437,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641135292485},{"ChildFeaturesList":[],"Name":"删除","PageName":"删除","Description":null,"FatherId":170567751098437,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641176203333}],"Name":"功能管理","PageName":"FeatureManage","Description":null,"FatherId":170567266549829,"IsElement":false,"Icon":"el-icon-film","Route":"Features","Redirect":null,"ViewPath":"views/FeatureManage/FeatureManage.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170567751098437},{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"输入框","PageName":"输入框","Description":null,"FatherId":170568105865285,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641244524613},{"ChildFeaturesList":[],"Name":"查询","PageName":"查询","Description":null,"FatherId":170568105865285,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641310711877},{"ChildFeaturesList":[],"Name":"添加","PageName":"添加","Description":null,"FatherId":170568105865285,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641367167045},{"ChildFeaturesList":[],"Name":"编辑","PageName":"编辑","Description":null,"FatherId":170568105865285,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641409646661},{"ChildFeaturesList":[],"Name":"删除","PageName":"删除","Description":null,"FatherId":170568105865285,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170641443061829}],"Name":"接口管理","PageName":"InterfaceManage","Description":null,"FatherId":170567266549829,"IsElement":false,"Icon":"el-icon-notebook-2","Route":"Interface","Redirect":null,"ViewPath":"views/InterfaceManage/InterfaceManage.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170568105865285}],"Name":"接口/功能管理","PageName":"接口/功能管理","Description":null,"FatherId":0,"IsElement":false,"Icon":"el-icon-s-management","Route":"/PermissionManage","Redirect":"/PermissionManage/Features","ViewPath":null,"Sort":8,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170567266549829},{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"编辑信息","PageName":"UserEdit","Description":null,"FatherId":176335751815237,"IsElement":false,"Icon":"el-icon-user-solid","Route":"UserEdit","Redirect":null,"ViewPath":"views/User/UserEdit.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":176336053174341},{"ChildFeaturesList":[],"Name":"修改密码","PageName":"UserPass","Description":null,"FatherId":176335751815237,"IsElement":false,"Icon":"el-icon-lock","Route":"Pass","Redirect":null,"ViewPath":"views/User/UserPass.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":176336293769285}],"Name":"用户信息","PageName":"用户信息","Description":null,"FatherId":0,"IsElement":false,"Icon":"el-icon-user-solid","Route":"/User","Redirect":"/User/UserEdit","ViewPath":null,"Sort":7,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176335751815237},{"ChildFeaturesList":[{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"输入框","PageName":"输入框","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244301541445},{"ChildFeaturesList":[],"Name":"查询","PageName":"查询","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244534300741},{"ChildFeaturesList":[],"Name":"添加","PageName":"添加","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244595617861},{"ChildFeaturesList":[],"Name":"编辑","PageName":"编辑","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244652335173},{"ChildFeaturesList":[],"Name":"删除","PageName":"删除","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244705194053},{"ChildFeaturesList":[],"Name":"开始任务调度","PageName":"开始任务调度","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244768170053},{"ChildFeaturesList":[],"Name":"结束任务调度","PageName":"结束任务调度","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244813303877},{"ChildFeaturesList":[],"Name":"启动任务","PageName":"启动任务","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244856090693},{"ChildFeaturesList":[],"Name":"停止任务","PageName":"停止任务","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244902895685},{"ChildFeaturesList":[],"Name":"重新安排任务","PageName":"重新安排任务","Description":null,"FatherId":175962488012869,"IsElement":true,"Icon":null,"Route":null,"Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":176244941983813}],"Name":"定时任务管理","PageName":"TaskManage","Description":null,"FatherId":175962042814533,"IsElement":false,"Icon":"el-icon-s-order","Route":"/TaskManage","Redirect":null,"ViewPath":"views/TaskManage/TaskManage.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":175962488012869}],"Name":"任务管理","PageName":"任务管理","Description":null,"FatherId":0,"IsElement":false,"Icon":null,"Route":"/TaskManage","Redirect":null,"ViewPath":null,"Sort":6,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":175962042814533},{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"Feature2","PageName":"Feature2","Description":"功能2","FatherId":167501107089477,"IsElement":false,"Icon":"el-icon-more","Route":"/dt1","Redirect":null,"ViewPath":"views/Home.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":167501159268421},{"ChildFeaturesList":[],"Name":"Feature3","PageName":"Feature3","Description":"功能3","FatherId":167501107089477,"IsElement":false,"Icon":"el-icon-star-off","Route":"/t/dt2","Redirect":null,"ViewPath":"views/T1.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":167501233823813}],"Name":"Feature1","PageName":"Feature1","Description":"功能1-","FatherId":0,"IsElement":false,"Icon":"el-icon-video-camera-solid","Route":"/feature1","Redirect":"/dt1","ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":167501107089477},{"ChildFeaturesList":[{"ChildFeaturesList":[{"ChildFeaturesList":[],"Name":"t2","PageName":"t2","Description":null,"FatherId":170242269503557,"IsElement":false,"Icon":null,"Route":"t2","Redirect":null,"ViewPath":"views/T2.vue","Sort":1,"ShowVisited":false,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170643778740293},{"ChildFeaturesList":[],"Name":"t1","PageName":"t1","Description":null,"FatherId":170242269503557,"IsElement":false,"Icon":null,"Route":"t1","Redirect":null,"ViewPath":"views/T2.vue","Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170643742761029}],"Name":"S1","PageName":"S1","Description":null,"FatherId":170242023129157,"IsElement":false,"Icon":"el-icon-s-ticket","Route":"s1","Redirect":null,"ViewPath":"views/T2.vue","Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170242269503557},{"ChildFeaturesList":[],"Name":"s2","PageName":"s2","Description":null,"FatherId":170242023129157,"IsElement":false,"Icon":"el-icon-picture-outline-round","Route":"s2","Redirect":null,"ViewPath":"views/Home.vue","Sort":0,"ShowVisited":true,"AffixView":false,"CacheView":true,"Enabled":true,"Id":170308855545925}],"Name":"Test1","PageName":"Test1","Description":null,"FatherId":0,"IsElement":false,"Icon":"el-icon-s-home","Route":"/T1","Redirect":null,"ViewPath":null,"Sort":0,"ShowVisited":false,"AffixView":false,"CacheView":false,"Enabled":true,"Id":170242023129157}]
+
+--------------------------------
+【操作时间】：2021/7/17 22:29:51
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：84
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:29:51
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：45
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:21
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：19
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:24
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：41
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T22:28:28.433","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:24
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.LastLoginTime == DateTime.Now), u => (u.Id == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).user.Id)
+【工作时间ms】：28
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:24
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：QueryUserRolesById
+【携带参数】：167485148799045
+【工作时间ms】：38
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T22:30:24.247","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:24
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：133
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:44
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：17
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:44
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：25
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:48
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：28
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":"y3RFiYa8L6lPVATRadD7Qw","Roles":null,"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T22:30:24.247","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:48
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.LastLoginTime == DateTime.Now), u => (u.Id == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).user.Id)
+【工作时间ms】：23
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:49
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：25
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:30:48
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：QueryUserRolesById
+【携带参数】：167485148799045
+【工作时间ms】：30
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":"y3RFiYa8L6lPVATRadD7Qw","Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T22:30:48.9","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 22:31:29
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：23
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:31:29
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：33
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:31:30
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：34
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:31:32
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：20
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:31:40
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SingleAsync
+【携带参数】：u => ((u.Enabled AndAlso (u.LoginName == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Name)) AndAlso (u.LoginPWD == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).loginInfo.Password.MD5Encrypt32()))
+【工作时间ms】：27
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":null,"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T22:30:48.9","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 22:31:40
+【操作用户】：
+【操作用户Id】：
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.LastLoginTime == DateTime.Now), u => (u.Id == value(Fast.Controllers.Basics.LoginController+<>c__DisplayClass4_0).user.Id)
+【工作时间ms】：26
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:31:40
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：16
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:31:40
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：QueryUserRolesById
+【携带参数】：167485148799045
+【工作时间ms】：32
+【结果】：{"PlaintextPwd":"string","ErrorCount":1,"Remark":"string","Enabled":true,"AdminSignalrConnectionId":null,"Roles":[{"FeaturesList":null,"Name":"Admin","Description":"管理员拥有所有权限","Enabled":true,"CreateTime":"2021-06-08T11:26:22","Id":167501808996421}],"NickName":"囍","LoginName":"string","LoginPWD":"B45CFFE084DD3D20D928BEE85E7B0F21","Avatar":"Img\\UserAvatars\\637621528728634743167485148799045.jpeg","CreateTime":"2021-06-09T14:48:38","UpdateTime":"2021-06-09T16:00:29.057","LastLoginTime":"2021-07-17T22:31:40.587","Id":167485148799045}
+
+--------------------------------
+【操作时间】：2021/7/17 22:32:12
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：29
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:32:13
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：26
+【结果】：true
+
+--------------------------------
+【操作时间】：2021/7/17 22:32:16
+【操作用户】：囍
+【操作用户Id】：167485148799045
+【操作类型】：UserClient
+【操作方法】：SetColumnAsync
+【携带参数】：u => (u.AdminSignalrConnectionId == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).ConnectionId), u => (u.Id == value(Microsoft.AspNetCore.SignalR.ChatHub+<>c__DisplayClass11_0).id)
+【工作时间ms】：26
+【结果】：true
+

@@ -1,0 +1,11 @@
+{
+  //服务注册发现配置
+  "ConsulSetting": {
+    "Enabled": false,
+    "ServiceName": "MyCoreService",
+    "ServiceIP": "localhost",
+    "ServicePort": "8081",
+    "ServiceHealthCheck": "/healthcheck",
+    "ConsulAddress": "http://localhost:8500"
+  }
+}
